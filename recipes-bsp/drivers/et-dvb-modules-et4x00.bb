@@ -1,11 +1,11 @@
-KV = "4.0.1"
-SRCDATE = "20160420"
+KV = "4.10.6"
+SRCDATE = "20170413"
 
 require et-dvb-modules.inc
 
-SRC_URI = "http://www.et-view.com/img_up/shop_pds/bh190/Img_Xtrend/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
+SRC_URI = "http://source.mynonpublic.com/xtrend/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
 
-SRC_URI[md5sum] = "3b7a8d6648f97e9f51a37ade66725492"
-SRC_URI[sha256sum] = "fde08b649f16b18f68535f68ae961dba56f6c7947c6fab4bc9c21d955154087d"
+SRC_URI[md5sum] = "3db7497610be9bf52bd8bc81a9a87cc7"
+SRC_URI[sha256sum] = "55a7abfabfef7f9ca7d7b91f156a3cd7735d9703ad12f6aa8a37c9b0fd97d506"
 
 COMPATIBLE_MACHINE = "et4.00"
